@@ -1,0 +1,23 @@
+==00:00:00:00.000 110380== Memcheck, a memory error detector
+==00:00:00:00.000 110380== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==00:00:00:00.000 110380== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==00:00:00:00.000 110380== Command: ./server 1504
+==00:00:00:00.000 110380== Parent PID: 110377
+==00:00:00:00.000 110380== 
+==00:00:00:22.757 110380== 
+==00:00:00:22.757 110380== FILE DESCRIPTORS: 5 open (3 std) at exit.
+==00:00:00:22.757 110380== Open file descriptor 63:
+==00:00:00:22.757 110380==    <inherited from parent>
+==00:00:00:22.757 110380== 
+==00:00:00:22.757 110380== Open file descriptor 3: /home/fource/Escritorio/Taller de programacion/threads-2024c1-4cea2/casos/03_three_players_all_read_once/__server_valgrind__
+==00:00:00:22.757 110380==    <inherited from parent>
+==00:00:00:22.757 110380== 
+==00:00:00:22.757 110380== 
+==00:00:00:22.757 110380== HEAP SUMMARY:
+==00:00:00:22.757 110380==     in use at exit: 0 bytes in 0 blocks
+==00:00:00:22.757 110380==   total heap usage: 99 allocs, 99 frees, 89,367 bytes allocated
+==00:00:00:22.757 110380== 
+==00:00:00:22.757 110380== All heap blocks were freed -- no leaks are possible
+==00:00:00:22.757 110380== 
+==00:00:00:22.757 110380== For lists of detected and suppressed errors, rerun with: -s
+==00:00:00:22.757 110380== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
