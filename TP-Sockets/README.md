@@ -5,4 +5,4 @@ Autor: La materia Taller de programacion (TA045), catedra Veiga.
 
 Diagrama UML:
 
-![img](/DiagramaUML.png)
+![img](/TP-Sockets/DiagramaUML.png)

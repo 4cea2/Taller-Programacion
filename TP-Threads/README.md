@@ -2,7 +2,7 @@
 
 ## **Diagrama**
 
-![img](/DiagramaThreads.png)
+![img](/TP-Threads/DiagramaThreads.png)
 
 ### **Aclaracion**
 
